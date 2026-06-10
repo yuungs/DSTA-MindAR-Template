@@ -36,6 +36,19 @@
         }); 
 
 </script>
+<!-- Card Effects --> 
+
+<script src="https://unpkg.com/aframe-hologram-shader"></script> 
+
+<script src="./effects/holo-shimmer.js"></script> 
+
+<script src="./effects/matrix-stream.js"></script> 
+
+<script src="./effects/card-glow.js"></script> 
+
+<script src="./effects/halo-rings.js"></script> 
+
+<script src="./effects/shader-time.js"></script> 
 </head>
 
 <body>
@@ -64,6 +77,9 @@
 			<a-text text="value: Contact Me; align: center; width: 1" geometry="primitive: plane; width: 0.25; height: 0.1;" material="color: gray; opacity: 1" position="0.35 -0.2 0.01" class="clickable" link="href: mailto: youremail@domain.com"> 
 
 			</a-text> 
+			<a-text text="value: Click here for my portfolio; align: center; width: 1" geometry="primitive: plane; width: 0.6; height: 0.1;" material="color: gray; opacity: 0.5" position="0 -0.33 0.01" class="clickable" navigate-on-click="url: https://www.helloholo.sg"> 
+
+</a-text> 
 		</a-entity>
 	</a-scene>
 </body>
