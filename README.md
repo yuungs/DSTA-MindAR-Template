@@ -10,7 +10,7 @@ This is my personal portfolio page.
 
 ## 🚀 About Me 
 
-Tell us more about yourself! 
+I like Pingu.
 
  
 
